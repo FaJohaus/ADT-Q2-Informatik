@@ -1,10 +1,7 @@
-import java.util.Arrays;
-import java.util.List;
-
 public class Dominos {
     //Erstelle eine Liste mit allen Dominos jeweils als String Array
     public static String[][] regexDominos = {
-        new String[]{"c(a+b)*", "bcb"},
+            new String[]{"c(a+b)*", "bcb"},
             new String[]{"b(a+c)b", "abc"},
             new String[]{"ab*c", "ccb"},
             new String[]{"c*bb*", "ba"},
