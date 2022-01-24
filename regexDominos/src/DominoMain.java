@@ -56,7 +56,7 @@ public class DominoMain {
         return true;
     }
 
-    private boolean isPlusCharChain(String regex, String string2check){
+    /* private boolean isPlusCharChain(String regex, String string2check){
         if(regex.charAt(i) == '+'){
             ArrayList<String> choices = new ArrayList<>();
             choices.add(first);
@@ -73,7 +73,7 @@ public class DominoMain {
 
 
         }
-    }
+    } */
 
     private boolean isLetter(char c){
         if(c != '+' && c != '*' && c != '(' && c != ')') return true;
